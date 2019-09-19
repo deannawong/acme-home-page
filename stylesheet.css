@@ -1,32 +1,47 @@
 body{
     font-family: 'Courier New', Courier, monospace;
-    background-color: grey;
+    background-color: lightgray;
     margin: 200 px
 }
 
 .Title{
     background:dodgerblue;
     text-align:center;
-
 }
 
 h1,h2{
     color:white;
-    background-color: tomato
+    background-color: tomato;
+    padding:1rem;
+}
+.section{
+    border: solid tomato;
+    border-width:0 0 1px 0;
 }
 .tomato{
     background-color:tomato;
-    
+}
+.blue{
+    background-color:dodgerblue;
+}
+.colors{
+    background-color:grey;
+    padding: 1rem;
+    margin: 1rem;
 }
 .square{
     display:inline-block;
     width:5rem;
     height: 5rem;
-    
-
 }
 
 img{
     width: 10rem;
+    border-radius: 5rem
 }
-
+.foo, .bazz{
+    color:tomato;
+}
+.bar,.quq{
+    color: dodgerblue;
+}
