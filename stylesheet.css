@@ -16,11 +16,12 @@ h1,h2{
 }
 .tomato{
     background-color:tomato;
+    
+}
+.square{
     width:5rem;
     height: 5rem;
-}
-/* .square{
     
 
 }
- */
+
