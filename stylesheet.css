@@ -1,0 +1,26 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: grey;
+    margin: 200 px
+}
+
+.Title{
+    background:dodgerblue;
+    text-align:center;
+
+}
+
+h1,h2{
+    color:white;
+    background-color: tomato
+}
+.tomato{
+    background-color:tomato;
+    width:5rem;
+    height: 5rem;
+}
+/* .square{
+    
+
+}
+ */
