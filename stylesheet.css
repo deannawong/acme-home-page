@@ -1,7 +1,9 @@
 body{
-    font-family: 'Courier New', Courier, monospace;
-    background-color: lightgray;
-    margin: 200 px
+    font-family: Arial;
+    background-color:rgb(224, 228, 230);
+    margin: 0 2rem;
+    padding: 1rem;
+    border-width: 1rem;
 }
 
 .Title{
@@ -14,6 +16,9 @@ h1,h2{
     background-color: tomato;
     padding:1rem;
 }
+p{
+    margin:0rem;
+}
 .section{
     border: solid tomato;
     border-width:0 0 1px 0;
@@ -25,7 +30,7 @@ h1,h2{
     background-color:dodgerblue;
 }
 .colors{
-    background-color:grey;
+    background-color:rgba(165, 167, 170, 0.726);
     padding: 1rem;
     margin: 1rem;
 }
@@ -36,12 +41,13 @@ h1,h2{
 }
 
 img{
-    width: 10rem;
-    border-radius: 5rem
+    height: 10rem;
+    width:10rem;
+    border-radius: 5rem;
 }
-.foo, .bazz{
+.tomatoFont{
     color:tomato;
 }
-.bar,.quq{
+.blueFont{
     color: dodgerblue;
 }
